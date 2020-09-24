@@ -1,6 +1,4 @@
-require 'pry'
 def reverse_each_word(string)
-  def reverse_each_word(string)
   array = string.split(" ") #turn string into an array
   test_array = []
   array.collect do|string| #iterate over the array
